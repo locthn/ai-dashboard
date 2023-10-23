@@ -1,0 +1,31 @@
+Flow ID,Description,Test Steps,Flow Priority
+1,Verify Page Form Basic HTML after Navigating from Home and Clicking on Javascript and Form Basic HTML,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink javascript
+step 3: At Page home click on hyperlink form basic html --> navigate to Page form-basic html
+step 4: At Page form-basic html click on button object
+step 5: At Page form-basic html click on hyperlink javascript
+step 6: At Page form-basic html click on hyperlink index html --> navigate to Page index html
+step 7: Add visual checkpoint at Page index html",High
+3,Verify Page Invoice HTML after Navigating from Index2 HTML and Clicking on Highcharts and Javascript and Invoice HTML,"step 1: Navigate to Page index2 html
+step 2: At Page index2 html click on div highcharts ndq9k7g 0
+step 3: At Page index2 html click on div highcharts ndq9k7g 0
+step 4: At Page index2 html click on div highcharts ndq9k7g 0
+step 5: At Page index2 html click on div highcharts ndq9k7g 0
+step 6: At Page index2 html click on div highcharts ndq9k7g 0
+step 7: At Page index2 html click on div highcharts ndq9k7g 0
+step 8: At Page index2 html click on hyperlink javascript
+step 9: At Page index2 html click on hyperlink javascript --> navigate to Page invoice html
+step 10: At Page invoice html click on hyperlink invoice html
+step 11: At Page invoice html click on hyperlink invoice html
+step 12: At Page invoice html click on hyperlink javascript
+step 13: Add visual checkpoint at Page invoice html",Trivial
+4,Verify Page Advanced Components HTML,"step 1: Navigate to Page advanced-components html
+step 2: Add visual checkpoint at Page advanced-components html",Trivial
+2,Verify Page Sitemap HTML after Navigating from Calendar HTML and Clicking on Multiple Javascript and Sitemap HTML,"step 1: Navigate to Page calendar html
+step 2: At Page calendar html click on hyperlink javascript
+step 3: At Page calendar html click on hyperlink javascript
+step 4: At Page calendar html click on hyperlink javascript
+step 5: At Page calendar html click on hyperlink javascript --> navigate to Page sitemap html
+step 6: At Page sitemap html click on hyperlink sitemap html
+step 7: At Page sitemap html click on hyperlink sitemap html
+step 8: Add visual checkpoint at Page sitemap html",Trivial
