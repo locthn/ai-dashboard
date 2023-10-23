@@ -1,7 +1,7 @@
-import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.model.FailureHandling
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -15,23 +15,9 @@ def setup() {
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '/index2.html')
 
-'step 2: At Page index2 html click on div highcharts ndq9k7g 0'
+'step 2: At Page index2 html click on div highcharts 8qxikzm 0'
 
-testObj = findTestObject('Object Repository/Page_home/div_highcharts_ndq9k7g_0')
-
-WebUI.delay(3)
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyMatch(WebUI.getUrl(), '.*/.*(?:#.*)?(?:\\?.*)?$', true)
-
-WebUI.enhancedClick(testObj)
-
-'step 3: At Page index2 html click on div highcharts ndq9k7g 0'
-
-testObj = findTestObject('Object Repository/Page_home/div_highcharts_ndq9k7g_0')
+testObj = findTestObject('Object Repository/Page_home/div_highcharts_8qxikzm_0')
 
 WebUI.delay(3)
 
@@ -43,23 +29,9 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/.*(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(testObj)
 
-'step 4: At Page index2 html click on div highcharts ndq9k7g 0'
+'step 3: At Page index2 html click on div highcharts 8qxikzm 0'
 
-testObj = findTestObject('Object Repository/Page_home/div_highcharts_ndq9k7g_0')
-
-WebUI.delay(3)
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyMatch(WebUI.getUrl(), '.*/.*(?:#.*)?(?:\\?.*)?$', true)
-
-WebUI.enhancedClick(testObj)
-
-'step 5: At Page index2 html click on div highcharts ndq9k7g 0'
-
-testObj = findTestObject('Object Repository/Page_home/div_highcharts_ndq9k7g_0')
+testObj = findTestObject('Object Repository/Page_home/div_highcharts_8qxikzm_0')
 
 WebUI.delay(3)
 
@@ -71,9 +43,9 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/.*(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(testObj)
 
-'step 6: At Page index2 html click on div highcharts ndq9k7g 0'
+'step 4: At Page index2 html click on div highcharts 8qxikzm 0'
 
-testObj = findTestObject('Object Repository/Page_home/div_highcharts_ndq9k7g_0')
+testObj = findTestObject('Object Repository/Page_home/div_highcharts_8qxikzm_0')
 
 WebUI.delay(3)
 
@@ -85,9 +57,37 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/.*(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(testObj)
 
-'step 7: At Page index2 html click on div highcharts ndq9k7g 0'
+'step 5: At Page index2 html click on div highcharts 8qxikzm 0'
 
-testObj = findTestObject('Object Repository/Page_home/div_highcharts_ndq9k7g_0')
+testObj = findTestObject('Object Repository/Page_home/div_highcharts_8qxikzm_0')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), '.*/.*(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(testObj)
+
+'step 6: At Page index2 html click on div highcharts 8qxikzm 0'
+
+testObj = findTestObject('Object Repository/Page_home/div_highcharts_8qxikzm_0')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), '.*/.*(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(testObj)
+
+'step 7: At Page index2 html click on div highcharts 8qxikzm 0'
+
+testObj = findTestObject('Object Repository/Page_home/div_highcharts_8qxikzm_0')
 
 WebUI.delay(3)
 
@@ -101,7 +101,7 @@ WebUI.enhancedClick(testObj)
 
 'step 8: At Page index2 html click on hyperlink javascript'
 
-testObj = findTestObject('Object Repository/Page_home/hyperlink_javascript')
+testObj = findTestObject('Object Repository/Page_home/hyperlink_javascript_1')
 
 WebUI.delay(3)
 
@@ -115,7 +115,7 @@ WebUI.enhancedClick(testObj)
 
 'step 9: At Page index2 html click on hyperlink javascript --> navigate to Page invoice html'
 
-testObj = findTestObject('Object Repository/Page_home/hyperlink_javascript')
+testObj = findTestObject('Object Repository/Page_home/hyperlink_javascript_1')
 
 WebUI.delay(3)
 
@@ -171,7 +171,7 @@ WebUI.enhancedClick(testObj)
 
 'step 13: Add visual checkpoint at Page invoice html'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Page Invoice HTML after Navigating from Index2 HTML and Clicking on Highcharts and Javascript and Invoice HTML_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Page Invoice HTML after Navigating and Clicking on Links_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

@@ -1,7 +1,7 @@
-import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.model.FailureHandling
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -101,7 +101,7 @@ WebUI.enhancedClick(testObj)
 
 'step 8: Add visual checkpoint at Page sitemap html'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Page Sitemap HTML after Navigating from Calendar HTML and Clicking on Multiple Javascript and Sitemap HTML_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Page Sitemap HTML after Navigating and Clicking on Links_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
