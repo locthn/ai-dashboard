@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to Page invoice html",
+        "step 2: At Page invoice html click on hyperlink javascript",
+        "step 3: At Page invoice html click on hyperlink index2 html --> navigate to Page index2 html",
+        "step 4: At Page index2 html click on button object",
+        "step 5: Add visual checkpoint at Page index2 html"
+    ]
+}

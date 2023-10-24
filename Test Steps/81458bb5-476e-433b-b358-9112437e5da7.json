@@ -7,6 +7,9 @@
         "step 5: At Page calendar html click on hyperlink javascript --> navigate to Page sitemap html",
         "step 6: At Page sitemap html click on hyperlink sitemap html",
         "step 7: At Page sitemap html click on hyperlink sitemap html",
-        "step 8: Add visual checkpoint at Page sitemap html"
+        "step 8: At Page sitemap html click on li object",
+        "step 9: At Page sitemap html click on hyperlink index html --> navigate to Page index html",
+        "step 10: At Page index html click on button object",
+        "step 11: Add visual checkpoint at Page index html"
     ]
 }
