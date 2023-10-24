@@ -1,7 +1,7 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.model.FailureHandling
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -59,7 +59,7 @@ WebUI.enhancedClick(testObj)
 
 'step 5: Add visual checkpoint at Page index2 html'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Page Index2 HTML after Navigating to Invoice HTML and Clicking on Java Script and Index2 HTML_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Navigation to Java Script Invoice HTML Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

@@ -1,7 +1,7 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.model.FailureHandling
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -17,7 +17,7 @@ WebUI.navigateToUrl(GlobalVariable.application_domain + '/calendar.html')
 
 'step 2: At Page calendar html click on div calendar'
 
-testObj = findTestObject('Object Repository/Page_calendar_html/div_calendar')
+testObj = findTestObject('Object Repository/Page_calendar_html/div_calendar_1')
 
 WebUI.delay(3)
 
@@ -59,7 +59,7 @@ WebUI.enhancedClick(testObj)
 
 'step 5: At Page calendar html click on hyperlink javascript'
 
-testObj = findTestObject('Object Repository/Page_calendar_html/hyperlink_javascript_2')
+testObj = findTestObject('Object Repository/Page_calendar_html/hyperlink_javascript_1')
 
 WebUI.delay(3)
 
@@ -73,7 +73,7 @@ WebUI.enhancedClick(testObj)
 
 'step 6: Add visual checkpoint at Page calendar html'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Page Calendar HTML after Navigating and Clicking on Calendar and Java Script_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Navigation to Java Script Calendar HTML Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

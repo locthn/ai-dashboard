@@ -1,5 +1,5 @@
 Flow ID,Description,Test Steps,Flow Priority
-1,Verify Page Form Basic HTML after Navigating from Home and Clicking on Java Script and Form Basic HTML,"step 1: Navigate to Page home
+1,Verify Navigation to Java Script Form Basic HTML Page,"step 1: Navigate to Page home
 step 2: At Page home click on hyperlink javascript
 step 3: At Page home click on hyperlink form basic html --> navigate to Page form-basic html
 step 4: At Page form-basic html click on button object
@@ -8,7 +8,7 @@ step 6: At Page form-basic html click on hyperlink javascript
 step 7: At Page form-basic html click on hyperlink index html --> navigate to Page index html
 step 8: At Page index html click on button object
 step 9: Add visual checkpoint at Page index html",High
-3,Verify Page Sitemap HTML after Navigating from Calendar HTML and Clicking on Java Script and Sitemap HTML,"step 1: Navigate to Page calendar html
+3,Verify Navigation to Java Script Sitemap HTML Page,"step 1: Navigate to Page calendar html
 step 2: At Page calendar html click on hyperlink javascript
 step 3: At Page calendar html click on hyperlink javascript
 step 4: At Page calendar html click on hyperlink javascript
@@ -19,16 +19,16 @@ step 8: At Page sitemap html click on li object
 step 9: At Page sitemap html click on hyperlink index html --> navigate to Page index html
 step 10: At Page index html click on button object
 step 11: Add visual checkpoint at Page index html",Trivial
-4,Verify Page Index2 HTML after Navigating to Invoice HTML and Clicking on Java Script and Index2 HTML,"step 1: Navigate to Page invoice html
+4,Verify Navigation to Java Script Invoice HTML Page,"step 1: Navigate to Page invoice html
 step 2: At Page invoice html click on hyperlink javascript
 step 3: At Page invoice html click on hyperlink index2 html --> navigate to Page index2 html
 step 4: At Page index2 html click on button object
 step 5: Add visual checkpoint at Page index2 html",Trivial
-2,Verify Page Calendar HTML after Navigating and Clicking on Calendar and Java Script,"step 1: Navigate to Page calendar html
+2,Verify Navigation to Java Script Calendar HTML Page,"step 1: Navigate to Page calendar html
 step 2: At Page calendar html click on div calendar
 step 3: At Page calendar html click on hyperlink javascript
 step 4: At Page calendar html click on hyperlink javascript
 step 5: At Page calendar html click on hyperlink javascript
 step 6: Add visual checkpoint at Page calendar html",Trivial
-5,Verify Page Advanced Components HTML,"step 1: Navigate to Page advanced-components html
+5,Verify Navigation to Java Script Advanced Components HTML Page,"step 1: Navigate to Page advanced-components html
 step 2: Add visual checkpoint at Page advanced-components html",Trivial

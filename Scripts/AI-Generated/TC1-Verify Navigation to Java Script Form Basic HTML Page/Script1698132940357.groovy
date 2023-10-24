@@ -1,7 +1,7 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.model.FailureHandling
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -45,7 +45,7 @@ WebUI.enhancedClick(testObj)
 
 'step 4: At Page form-basic html click on button object'
 
-testObj = findTestObject('Object Repository/Page_form-basic_html/button_object')
+testObj = findTestObject('Object Repository/Page_form-basic_html/button_object_1')
 
 WebUI.delay(3)
 
@@ -59,7 +59,7 @@ WebUI.enhancedClick(testObj)
 
 'step 5: At Page form-basic html click on button object'
 
-testObj = findTestObject('Object Repository/Page_form-basic_html/button_object_1')
+testObj = findTestObject('Object Repository/Page_form-basic_html/button_object_2')
 
 WebUI.delay(3)
 
@@ -115,7 +115,7 @@ WebUI.enhancedClick(testObj)
 
 'step 9: Add visual checkpoint at Page index html'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Page Form Basic HTML after Navigating from Home and Clicking on Java Script and Form Basic HTML_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Navigation to Java Script Form Basic HTML Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
