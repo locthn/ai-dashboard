@@ -15,7 +15,7 @@ WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
 'step 2: Add visual checkpoint at Page advanced-components html'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Page Advanced Components HTML after Navigating_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Page Advanced Components HTML_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

@@ -1,7 +1,7 @@
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.model.FailureHandling
 import internal.GlobalVariable as GlobalVariable
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.model.FailureHandling
 
 'Initialize test session: Open browser and set view port'
 
@@ -57,7 +57,21 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/form-basic.html(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(testObj)
 
-'step 5: At Page form-basic html click on hyperlink javascript'
+'step 5: At Page form-basic html click on button object'
+
+testObj = findTestObject('Object Repository/Page_form-basic_html/button_object_1')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), '.*/form-basic.html(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(testObj)
+
+'step 6: At Page form-basic html click on hyperlink javascript'
 
 testObj = findTestObject('Object Repository/Page_form-basic_html/hyperlink_javascript')
 
@@ -71,7 +85,7 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/form-basic.html(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(testObj)
 
-'step 6: At Page form-basic html click on hyperlink index html --> navigate to Page index html'
+'step 7: At Page form-basic html click on hyperlink index html --> navigate to Page index html'
 
 testObj = findTestObject('Object Repository/Page_form-basic_html/hyperlink_index_html')
 
@@ -85,9 +99,23 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/form-basic.html(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(testObj)
 
-'step 7: Add visual checkpoint at Page index html'
+'step 8: At Page index html click on button object'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Page Form Basic HTML after Navigating and Clicking on Links_visual_checkpoint')
+testObj = findTestObject('Object Repository/Page_index_html/button_object')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), '.*/index.html(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(testObj)
+
+'step 9: Add visual checkpoint at Page index html'
+
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Page Form Basic HTML after Navigating from Home and Clicking on Java Script and Form Basic HTML_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
